@@ -29,7 +29,7 @@ export class TodoItemComponent implements OnInit {
   }
 
   onDelete(todo: Todo) {
-    
+    console.log('delete');
   }
 
 }
